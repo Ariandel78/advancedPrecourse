@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  font-family: "open sans", sans-serif;
+}
+
+
+body {
+  background-image: linear-gradient(to Ttop, rgb(117, 132, 132), white);
+  height: 100vh;
+  margin-top: 50px;
+  margin-left: 0;
+  margin-bottom: 
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.card:hover{
+  background-color:#c6ebe7 ;
+}
+
+#david {
+  width: 230px;
+  height:230px;
+}
+
+.icons{
+  list-style-type: none;
+  text-align: center;
+}
+
+.icons li{
+  display: inline;
+  font-size: 50px;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.icons li a{
+  text-decoration: none;
+}
+
+.icons li img{
+  width: 33%;
+}
+
+.main-nav{
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  margin: 0px;
+}
+
+.main-nav, .footer{
+  background-color: #26b651;
+  text-decoration: none;
+  color: white;
+  padding: 0;
+  width: 100%;
+  
+}
+
+nav ul, footer ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 3px auto;
+}
+
+nav li, footer li{
+  font-size: 20px;
+  text-align: center;
+  width: 20%;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+nav li a, footer li a{
+  text-decoration: none;
+  color: white;
+}
+nav li:hover, footer li:hover {
+  background-color: #70e894;
+}
+
+.nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+}
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.container{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 50px;
+  
+}
+
+.container section h3{
+  line-height: 35px;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input.submit {
+  background-color: #26b651;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  background-color: #069230;
+}
+
+.container{
+  padding: 50px;
+}
+
+.container h2{
+  font-size: 24px;
+}
+
+.container form label{
+  font-size: 20px;
+}
+
+.footer p{
+  font-size: large;
+  text-align: left;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.footer{
+  margin-top: auto;
+  
+}
+
+.visited {
+  
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.cities {
+  list-style-type: none;
+  padding: 0;
+}

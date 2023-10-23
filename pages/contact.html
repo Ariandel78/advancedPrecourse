@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="main-nav">
+        <ul class="nav">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+          <li><a href="/pages/contact.html">Contact us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+      <h2>
+        If you have a question don't hesitate to contact me here:
+      </h2>
+      <h4 id='err_msg' style="color:red"></h4>
+      <br>
+      <form id="myForm" action= "https://formspree.io/f/mdorbegg" method="POST">
+        <label for="name">First name:</label>
+        <br><br>
+        <input class="field" type="text" id="fname" name="name" placeholder="Enter your first name" required>
+        <br><br>
+        <label for="name">Last name:</label>
+        <br><br>
+        <input class="field" type="text" id="lname" name="name" placeholder="Enter your last name" >
+        <br><br>
+        <label for="email">Email address:</label>
+        <br><br>
+        <input class="field" type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="message">Message:</label>
+        <br><br>
+        <textarea class="field" name="message" id="message" cols="40" rows="10" placeholder="Write your message" required></textarea>
+        <br><br>
+        <input id='submitBtn' class="submit" type="submit" value="Submit" onclick='validate()'>
+      </form>
+    </div>
+    <footer class="footer">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+          <li><a href="/pages/contact.html">Contact us</a></li>
+        </ul>
+        <p id="footer-message"></p>
+        <script src="../js/footer.js"></script>
+        <script src="../js/contact.js"></script>
+      </footer>
+</body>
+</html>
