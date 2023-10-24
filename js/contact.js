@@ -26,6 +26,8 @@ form.addEventListener('submit', (e) =>{
 });
 
 
+// Failed options... 
+
 // inputFname.addEventListener('keyup', (e) => {
 //     submitButton.disabled = false;
 //     const value = e.currentTarget.value;
